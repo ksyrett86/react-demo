@@ -1,0 +1,7 @@
+{
+    "apiPath": "https://{domain}:5001/api",
+    "identityServer": {
+        "client_id": "App1",
+        "url": "https://{domain}:5000"
+    }
+}

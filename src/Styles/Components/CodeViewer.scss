@@ -1,0 +1,49 @@
+.prismjs {
+    .comment.linenumber {
+        color: #999;
+    }
+    .token.tag, .token.selector {
+        color: #800000;
+    }
+    .token.tag.attr-name, .token.property {
+        color: #FF0000;
+    }
+    .token.tag.token.tag.attr-value, .token.tag.script.language-javascript.string, .token.string, .token.variable {
+        color: #900000;
+    }
+    .token.tag.script.language-javascript {
+        color: #000;
+    }
+    .token.tag.script.language-javascript.punctuation {
+        color: blue;
+    }
+    .token.tag.script.language-javascript.number, .token.number, .token.unit {
+        color: #098658;
+    }
+    .token.tag.script.language-javascript.keyword, .token.keyword, .token.atrule {
+        color: blue;
+    }
+    .token.comment {
+        color: #008000
+    }
+    .token.hexcode {
+        color: #0451A5;
+    }
+}
+
+.modal-body {
+    pre {
+        margin-bottom: 0;
+    }
+    .code-block-container {
+        .code-block-title {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        &:not(:last-child) {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
